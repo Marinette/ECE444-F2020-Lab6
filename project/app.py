@@ -1,11 +1,10 @@
-import sqlite3
 from pathlib import Path
 import os
 import sys
+
 sys.path.append(r"C:\Users\Meggie\Development\ECE444-F2020-Lab6")
 from flask import (
     Flask,
-    g,
     render_template,
     request,
     session,
@@ -62,7 +61,7 @@ def index():
 def add_entry():
     """Adds new post to the database."""
     if not session.get("logged_in"):
-        abort(401)
+        sys.exit(401)
     new_entry = models.Post(request.form["title"], request.form["text"])
     db.session.add(new_entry)
     db.session.commit()
