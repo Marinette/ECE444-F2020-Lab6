@@ -9,4 +9,4 @@ https://stackoverflow.com/questions/64333/disadvantages-of-test-driven-developme
 
 | Pros | Cons |
 |------|------|
-| - TDD helps to make more modular code, as individual components need to be able to be tested separately<br /> - Helps in debugging to find mistakes and might even prevent stupid mistakes <br />- Often results in more organized code structure as developers are forced to consider testing integration   |- Time-consuming <br />- Tests have to be constantly updated and maintained<br />- Can slow down development at the start due to learning curve     |
+| - TDD helps to make more modular code, as individual components need to be able to be tested separately<br /> - Helps in debugging to find mistakes and might even prevent stupid mistakes <br />- Often results in more organized code structure as developers are forced to consider testing integration|- Time-consuming <br />- Tests have to be constantly updated and maintained<br />- Can slow down development at the start due to learning curve     |
